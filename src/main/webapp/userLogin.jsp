@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=windows-1255"
+    pageEncoding="windows-1255"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>user login</title>
+</head>
+<body>
+<form method="get" action="Registration/controller/StudentServlet">
+
+<table 
+			style="width:70%;background-color: pink;margin-top:200px;margin-left:100px;margin-right:200px;">
+
+			<tr>
+				<td>
+					<h3 style="color:brown">user login</h3>
+				</td>
+			</tr>
+	        <tr>
+				<td>Enter Name :</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			 <tr>
+				<td>Enter Password :</td>
+				<td><input type="password" name="password"></td>
+				<input type="text" name="type" value="login" style="display:none">
+			</tr> 
+			<tr>
+				<td></td>
+				<td><input type="submit" name="Login" value="login"></td>
+			
+			</tr>
+		</table>
+</form>
+</body>
+</html>
